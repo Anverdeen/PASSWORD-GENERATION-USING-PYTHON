@@ -1,0 +1,12 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+import random
+
+lower   ="abcdefghijklmnopqrstuvwxyz"
+upper   ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+number  ="1234567890"
+symbol  ="!@#$%^&*()}{][=+-_"
+all     =lower+upper+number+symbol
+length  =8
+password="".join(random.sample(all,length))
+print("password is= ",password)
